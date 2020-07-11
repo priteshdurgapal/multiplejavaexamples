@@ -1,3 +1,4 @@
+package com.check.randome;
 import java.util.Collection;
 import java.util.Arrays;
 
