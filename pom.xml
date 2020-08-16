@@ -1,0 +1,64 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.multiplejavaexamples</groupId>
+	<artifactId>multiplejavaexamples</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.0</version>
+				<configuration>
+					<release>11</release>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>4.1.2</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-web -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>3.0.2.RELEASE</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.9</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/uri/uri -->
+
+		<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.5.12</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+		<dependency>
+			<groupId>com.googlecode.json-simple</groupId>
+			<artifactId>json-simple</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.clojure</groupId>
+			<artifactId>clojure</artifactId>
+			<version>1.10.2-alpha1</version>
+		</dependency>
+
+	</dependencies>
+
+</project>

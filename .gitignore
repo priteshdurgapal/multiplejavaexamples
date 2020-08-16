@@ -24,7 +24,11 @@
 *.rar
 *.classpath
 *.project
+*.settings
 
 
 
 
+
+/bin/
+/target/

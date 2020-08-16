@@ -3,7 +3,7 @@ package com.check.xxex;
 import org.apache.poi.hssf.usermodel.*;
 import org.w3c.dom.*;
 import java.io.*;
-import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilder; .DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import org.xml.sax.SAXException;
