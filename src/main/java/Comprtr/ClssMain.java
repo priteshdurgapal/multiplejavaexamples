@@ -20,6 +20,10 @@ public class ClssMain {
 		loe.add(e2);
 		loe.add(e1);
 		
+		System.out.println("first step===============");
+		Collections.sort(loe,new ByName());
+		System.out.println(loe);
+		System.out.println("completed step===============");
 		//System.out.println("Sort with ID & name");
 		Collections.sort(loe, new Comparator<Employee>(){
 
@@ -55,7 +59,7 @@ public class ClssMain {
 			
 		});
 		
-		Collections.sort();
+		Collections.sort(loe);
 		System.out.println("id wise comparator");
 		System.out.println(loe);
 		

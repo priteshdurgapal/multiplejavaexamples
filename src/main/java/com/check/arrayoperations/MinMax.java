@@ -23,8 +23,8 @@ public class MinMax {
 				a_max = arr[i];
 			}
 		}
-		List<Integer> list = Arrays.asList(5, 9, 7, 11);
-		System.out.println(list);
+		//List<Integer> list = Arrays.asList(5, 9, 7, 11);
+	//	System.out.println(list);
 		// sint[] arrer =ArrayUtils.toPrimitivelist.toArray();
 		System.out.println("a_max" + a_max);
 		System.out.println("a_min" + a_min);
